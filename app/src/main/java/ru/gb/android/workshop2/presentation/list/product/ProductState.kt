@@ -1,0 +1,19 @@
+package ru.gb.android.workshop2.presentation.list.product
+
+import android.content.Context
+
+data class ScreenState(
+    val isLoading: Boolean = false,
+    val productState: ProductState = ProductState(),
+    val hasError: Boolean = false,
+    val getErrorText: (Context) -> String = { "" }
+)
+
+data class ProductState(
+    val id: String = "",
+    val name: String = "",
+    val image: String = "",
+    val price: String = "",
+    val hasDiscount: Boolean = false,
+    val discount: String = "",
+)
