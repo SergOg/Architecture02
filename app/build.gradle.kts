@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-//    alias(libs.plugins.kotlinxSerialization)
+    alias(libs.plugins.kotlinxSerialization)
 }
 
 android {
@@ -40,21 +40,21 @@ android {
 }
 
 dependencies {
-//    implementation(libs.swipetorefresh)
-//    implementation(libs.lifecycle.livedata.ktx)
-//    implementation(libs.lifecycle.viewmodel.ktx)
-//    implementation(libs.navigation.ui.ktx)
-//    implementation(libs.coil)
-//    implementation(libs.gson)
-//    implementation(libs.bundles.network)
-//    implementation(libs.kotlin.serialization)
-//    implementation(libs.kotlinx.serializationJson)
-//    implementation(libs.androidx.datastore)
-//    implementation(libs.androidx.datastore.preferences)
-//    implementation(libs.bundles.mvicore)
-//    implementation(libs.bundles.rx)
-//    implementation(libs.kotlinx.coroutines.rx2)
-//    androidTestImplementation(libs.androidx.test.ext.junit)
+    implementation(libs.swipetorefresh)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
+    implementation(libs.navigation.ui.ktx)
+    implementation(libs.coil)
+    implementation(libs.gson)
+    implementation(libs.bundles.network)
+    implementation(libs.kotlin.serialization)
+    implementation(libs.kotlinx.serializationJson)
+    implementation(libs.androidx.datastore)
+    implementation(libs.androidx.datastore.preferences)
+    implementation(libs.bundles.mvicore)
+    implementation(libs.bundles.rx)
+    implementation(libs.kotlinx.coroutines.rx2)
+    androidTestImplementation(libs.androidx.test.ext.junit)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
